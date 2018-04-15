@@ -6,7 +6,7 @@
         <li><a href="/admin/post">Posts</a></li>
         <li><a href="/admin/tag">Tags</a></li>
         <li><a href="/admin/upload">Uploads</a></li>
-        <li><a href="https://austintoddj.github.io/Canvas">Support</a></li>
-        <li><a href="mailto:austin.todd.j@gmail.com">Contact</a></li>
+        <li><a href="https://github.com/TraianAlex/canvas">Support</a></li>
+        <li><a href="mailto:victor_traian@yahoo.com">Contact</a></li>
     </ul>
 </footer>

@@ -15,7 +15,7 @@ class AuthenticationTest extends TestCase
     public function testApplicationLogin()
     {
         $this->visit('/auth/login')
-             ->type('admin@canvas.com', 'email')
+             ->type('victor_traian@yahoo.com', 'email')
              ->type('password', 'password')
              ->press('submit')
              ->seePageIs('/admin/post');
@@ -29,7 +29,7 @@ class AuthenticationTest extends TestCase
     public function testApplicationLogout()
     {
         $this->visit('/auth/login')
-             ->type('admin@canvas.com', 'email')
+             ->type('victor_traian@yahoo.com', 'email')
              ->type('password', 'password')
              ->press('submit')
              ->seePageIs('/admin/post')

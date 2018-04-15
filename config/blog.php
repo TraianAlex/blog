@@ -12,11 +12,9 @@ return [
   | on sites such as Facebook and Twitter.
   |
   */
-  'name'            => 'Canvas',
-  'title'           => 'Canvas',
-  'subtitle'        => 'Minimal Blogging App',
-  'description'     => 'Blog',
-  'author'          => 'Todd Austin',
+  'name'            => 'Blog',
+  'title'           => 'VIC',
+  'author'          => 'Traian Alexandru',
 
   /*
   |--------------------------------------------------------------------------

@@ -13,7 +13,7 @@ class AdminRoutesTest extends TestCase
     private function userLogin()
     {
         $this->visit('/auth/login')
-            ->type('admin@canvas.com', 'email')
+            ->type('victor_traian@yahoo.com', 'email')
             ->type('password', 'password')
             ->press('submit')
             ->seePageIs('/admin/post');
