@@ -363,6 +363,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": ".env",
+			"settings":
+			{
+				"buffer_size": 620,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "composer.json",
+			"settings":
+			{
+				"buffer_size": 1614,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -489,15 +506,11 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/victor/MEGA/www/laravel/canvas/canvas",
-		"/Users/victor/MEGA/www/laravel/canvas/canvas/resources",
-		"/Users/victor/MEGA/www/laravel/canvas/canvas/resources/views",
-		"/Users/victor/MEGA/www/laravel/canvas/canvas/resources/views/frontend",
-		"/Users/victor/MEGA/www/laravel/canvas/canvas/resources/views/frontend/partials",
-		"/Users/victor/MEGA/www/laravel/canvas/canvas/storage"
+		"/Users/victor/MEGA/www/laravel/canvas/canvas"
 	],
 	"file_history":
 	[
+		"/Users/victor/MEGA/www/laravel/canvas/canvas/.env",
 		"/Users/victor/MEGA/www/laravel/canvas/canvas/resources/views/backend/partials/footer.blade.php",
 		"/Users/victor/MEGA/www/laravel/canvas/canvas/readme.md",
 		"/Users/victor/MEGA/www/laravel/canvas/canvas/composer.json",
@@ -624,12 +637,11 @@
 		"/Users/victor/Dropbox/www/laravel/lar55/app/Http/Controllers/Transaction/TransactionController.php",
 		"/Users/victor/Dropbox/www/laravel/lar55/app/Http/Controllers/Transaction/TransactionCategoryController.php",
 		"/Users/victor/Dropbox/www/laravel/lar55/app/Http/Controllers/Seller/SellerTransactionController.php",
-		"/Users/victor/Dropbox/www/laravel/lar55/app/Http/Controllers/Seller/SellerController.php",
-		"/Users/victor/Dropbox/www/laravel/lar55/app/Http/Controllers/Seller/SellerCategoryController.php"
+		"/Users/victor/Dropbox/www/laravel/lar55/app/Http/Controllers/Seller/SellerController.php"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -660,14 +672,81 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": ".env",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 620,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								255
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 657.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "composer.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 53.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 38.0
+		"height": 40.0
 	},
 	"input":
 	{
@@ -696,6 +775,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
 	"output.doc":
 	{
 		"height": 0.0
@@ -712,11 +795,15 @@
 	{
 		"height": 0.0
 	},
+	"output.sftp":
+	{
+		"height": 210.0
+	},
 	"pinned_build_system": "Packages/User/builds/PSR2.sublime-build",
 	"project": "canvas.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 76.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -847,16 +934,20 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "route",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"route",
-				"~/MEGA/www/router/router.sublime-project"
+				"",
+				"~/MEGA/www/laravel/laravel.sublime-project"
 			],
 			[
-				"",
-				"~/MEGA/www/laravel/vic/vic.sublime-project"
+				"larav",
+				"~/MEGA/www/laravel/laravel.sublime-project"
+			],
+			[
+				"route",
+				"~/MEGA/www/router/router.sublime-project"
 			],
 			[
 				"dan",
